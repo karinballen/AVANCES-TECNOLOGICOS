@@ -1,12 +1,14 @@
+@media screen and (min-width:996px){ 
 BODY { 
     font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
     margin: 10 0 10 0px; 
     text-align: center; 
     background-color: #FFFFFF; 
+ width: 1350px; 
 } 
 #contenedor{ 
     text-align: left; 
-    width: 992px; 
+    width: 960px; 
 
 } 
 #cabecera{ 
@@ -18,37 +20,24 @@ BODY {
 } 
 
 #lateral{ 
-    margin-left: 20px;
+    margin-left: 1.48%;
     border: 1px solid black;
-    width: 420px; 
+    width: 31.11%; 
     background-color: #999999; 
     float:left; 
 }
-#principal{ 
-    margin-left: 170px; 
-    background-color: #d0d0ff; 
-    padding: 4 4 4 4px; 
-    width: 460px;
-    float: center; 
-} 
-#pie{ 
-    background-color: #cccccc; 
-    padding: 5 10 5 10px; 
-    text-align:right; 
-    clear: both; 
-}
-
+ 
 #lateralder{ 
-    margin-right: 20px;
+    margin-right: 1.48%;
     border: 1px solid black;
-    width: 420px; 
+    width: 31.11%; 
     background-color: #999999; 
     float: right; 
 } 
 #central{  
-    margin-left: 465px;
+    margin-left: 34.4%;
     border: 1px solid black;
-    width: 420px; 
+    width: 31.11%; 
     background-color: #999999;
     float: inherit; 
 } 
@@ -71,3 +60,4 @@ BODY {
     background-color: #DA4444; 
     float: right;
 } 
+}
